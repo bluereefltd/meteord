@@ -1,4 +1,4 @@
-FROM meteorhacks/meteord:base
+FROM https://github.com/bluereefltd/meteord.git#node4.4.7:base
 MAINTAINER MeteorHacks Pvt Ltd.
 
 COPY scripts/install_binbuild_tools.sh $METEORD_DIR/install_binbuild_tools.sh
